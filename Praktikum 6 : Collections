@@ -1,0 +1,27 @@
+myList1 = [1, 2, 3, "Hello"]
+myList2 = list([1,2,3,"Hello"])
+print(myList1)
+print ("myList2[1:5]: ", myList2[1:2])
+del myList1[2]
+print (myList1)
+alist = [1,3,2,10,7,16]
+print(alist)
+alist.append(5)
+print(alist)
+
+myList1
+[1, 2, 3, "Hello"]
+
+Myset = {2,3,4,5}
+Mxset = {"nama", "npm", "kelas"}
+Myset.add(4)
+print(Myset)
+print(Mxset)
+
+myDict = {"nama":"Hamzah Hanif","npm":"2117051032"}
+print(myDict)
+
+myDict.get("key")
+
+print("Nama saya", myDict.get("nama"))
+print("NPM saya",myDict["npm"])
